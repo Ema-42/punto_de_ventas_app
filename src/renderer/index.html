@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <button>click aqui</button>
+    <span id="count">0</span>
+
+    <h1>Pedidos</h1>
+    <table id="productos-table" border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Producto</th>
+          <th>Cantidad</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="productos-body">
+        <!-- Aquí se llenarán los productos -->
+      </tbody>
+    </table>
+  </body>
+  <script src="./renderer.js"></script>
+</html>

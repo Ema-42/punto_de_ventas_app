@@ -2,7 +2,9 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-
+# Prisma
+prisma/dev.db
+prisma/.env
 # Electron
 dist/
 build/

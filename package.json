@@ -2,10 +2,19 @@
   "name": "punto_de_ventas_app",
   "version": "1.0.0",
   "description": "app de punto de ventas",
-  "main": "index.js",
+  "main": "src/main/main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "judem",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.2.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.4.0",
+    "prisma": "^6.4.0",
+    "sqlite3": "^5.1.7"
+  }
 }
