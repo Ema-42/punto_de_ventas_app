@@ -19,8 +19,9 @@ window.api.getProductos().then((productos) => {
     tr.innerHTML = `
       <td>${producto.id}</td>
       <td>${producto.nombre}</td>
-      <td>${producto.descripcion}</td>
       <td>${producto.precio}</td>
+      <td>${producto.imagen_url}</td>
+      <td>${producto.categoria.nombre}</td>
     `;
 
     tbody.appendChild(tr);
