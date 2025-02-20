@@ -1,5 +1,6 @@
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
+
 const registerIpcProcess = require("./ipc-main-process"); // Importa todos los IPC
 
 const setMainMenu = require("./menu");
